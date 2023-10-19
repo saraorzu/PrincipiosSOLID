@@ -9,5 +9,12 @@ namespace PrincipiosSOLID
     public class Class1
     {
         //clase de prueba
+        public Class1() { 
+        
+        //prueba 2
+
+        }
+
+
     }
 }
