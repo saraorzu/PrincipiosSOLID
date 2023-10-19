@@ -44,6 +44,8 @@ namespace PrincipiosSOLID.InterfaceSegregation.Correcto
     {
         void Atacar();
         void Defender();
+
+        void Dormir();
        
 
     }
