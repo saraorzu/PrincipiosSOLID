@@ -43,14 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InterfaceSegregation\Correcto\Pokemon.cs" />
+    <Compile Include="InterfaceSegregation\Incorrecto\Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingleResponsability\Correcto\Class1.cs" />
-    <Compile Include="SingleResponsability\Correcto\Class2.cs" />
-    <Compile Include="SingleResponsability\Incorrecto\Class1.cs" />
+    <Compile Include="SingleResponsability\Correcto\FindCsvLine.cs" />
+    <Compile Include="SingleResponsability\Incorrecto\FindCsvLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
