@@ -33,6 +33,12 @@ namespace PrincipiosSOLID.InterfaceSegregation.Correcto
         }
     }
 
+    public class Snorlax : Pokemon
+    {
+
+
+    }
+
 
     public interface IMovimientos
     {
